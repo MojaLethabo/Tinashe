@@ -1,0 +1,29 @@
+{
+  "comments": [
+    {
+      "id": "1781763859508",
+      "targetId": "the-return-of-the-creative-self",
+      "targetType": "blog",
+      "name": "lethabo",
+      "comment": "you are right...it encourages a lot",
+      "date": "2026-06-18T06:24:19.508Z"
+    },
+    {
+      "id": "1781764105107",
+      "targetId": "the-return-of-the-creative-self",
+      "targetType": "blog",
+      "parentId": "1781763859508",
+      "name": "Manda",
+      "comment": "I agree to that...it boost us",
+      "date": "2026-06-18T06:28:25.107Z"
+    },
+    {
+      "id": "1781790505275",
+      "targetId": "the-return-of-the-creative-self",
+      "targetType": "blog",
+      "name": "tinashe",
+      "comment": "thats good",
+      "date": "2026-06-18T13:48:25.275Z"
+    }
+  ]
+}

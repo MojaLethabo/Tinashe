@@ -1,0 +1,120 @@
+{
+  "episodes": [
+    {
+      "id": "5",
+      "episode": 5,
+      "title": "The Politics of Participation: Who Speaks and Who is Heard?",
+      "description": "A critical examination of participatory methodologies in community arts — questioning whose voices are centred and how practitioners can avoid replicating power dynamics they seek to dismantle.",
+      "duration": "50:19",
+      "date": "2025-01-01",
+      "audioSrc": "",
+      "category": "Arts for Social Change",
+      "isLive": false
+    },
+    {
+      "id": "4",
+      "episode": 4,
+      "title": "Peace Building Through Creative Expression: Lessons from Zimbabwe",
+      "description": "Drawing from 9 years of experience in Zimbabwe, reflecting on how creative arts have been deployed in peace-building initiatives and what lessons translate across Southern African contexts.",
+      "duration": "56:44",
+      "date": "2024-12-15",
+      "audioSrc": "",
+      "category": "Peace Studies",
+      "isLive": false
+    },
+    {
+      "id": "3",
+      "episode": 3,
+      "title": "Applied Ethnomusicology: Bridging Academia and Activism",
+      "description": "A deep dive into applied ethnomusicology as a methodology — exploring its potential to bridge the gap between academic knowledge production and activist practice in the field.",
+      "duration": "45:38",
+      "date": "2024-12-01",
+      "audioSrc": "",
+      "category": "Ethnomusicology",
+      "isLive": false
+    },
+    {
+      "id": "2",
+      "episode": 2,
+      "title": "Community Music and Shared Agency in Post-Conflict Zones",
+      "description": "Examining how community music-making creates spaces for shared agency and collective healing in communities affected by conflict and structural violence.",
+      "duration": "52:15",
+      "date": "2024-11-15",
+      "audioSrc": "",
+      "category": "Community Engagement",
+      "isLive": false
+    },
+    {
+      "id": "1",
+      "episode": 1,
+      "title": "Arts as a Tool for Conflict Transformation in Southern Africa",
+      "description": "The inaugural episode — how arts-based methodologies serve as powerful tools for conflict transformation in Southern African contexts, drawing from doctoral research and community practice.",
+      "duration": "48:22",
+      "date": "2024-11-01",
+      "audioSrc": "",
+      "category": "Conflict Transformation",
+      "isLive": false
+    }
+  ],
+  "liveSessions": [
+    {
+      "id": "1779544005201",
+      "title": "Sgidongo",
+      "description": "s",
+      "duration": "7:45",
+      "date": "2026-05-23",
+      "audioSrc": "/recordings/1779543916249-8jq7e1zoryu.mp3",
+      "category": "ars",
+      "episode": 6,
+      "isLive": true
+    },
+    {
+      "id": "1779534703718",
+      "title": "Lwetse",
+      "description": "Lwetse",
+      "duration": "5",
+      "date": "2026-05-23",
+      "audioSrc": "/recordings/1779534625591-3k7jobd0opv.mp3",
+      "category": "Arts of Social science",
+      "episode": null,
+      "isLive": true,
+      "originalViewers": "142 live"
+    },
+    {
+      "id": "live-3",
+      "episode": null,
+      "title": "Research Roundtable: Arts, Agency & Social Change in Southern Africa",
+      "description": "A multi-speaker research roundtable featuring academics, activists, and artists discussing the intersection of arts practice and social change theory. Originally streamed live with open Q&A.",
+      "duration": "2:05:44",
+      "date": "2024-07-10",
+      "audioSrc": "",
+      "category": "Research Roundtable",
+      "isLive": true,
+      "originalViewers": "215 live"
+    },
+    {
+      "id": "live-2",
+      "episode": null,
+      "title": "Peace-Building Through Arts in Zimbabwe: Field Research Broadcast",
+      "description": "Broadcast live from the field — a real-time discussion of ongoing findings from a peace-building arts initiative in Harare, with community practitioners and local artists.",
+      "duration": "1:22:08",
+      "date": "2024-08-20",
+      "audioSrc": "",
+      "category": "Field Research Broadcast",
+      "isLive": true,
+      "originalViewers": "98 live"
+    },
+    {
+      "id": "live-1",
+      "episode": null,
+      "title": "Ethnomusicology in Community Practice: Live Research Session",
+      "description": "A recorded live research session exploring the practical application of ethnomusicological methods in community arts programs across KwaZulu-Natal, with audience participation.",
+      "duration": "1:45:22",
+      "date": "2024-09-15",
+      "audioSrc": "",
+      "category": "Live Research Session",
+      "isLive": true,
+      "originalViewers": "142 live"
+    }
+  ]
+}

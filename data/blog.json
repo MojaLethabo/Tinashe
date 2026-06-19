@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": "1781159112994",
+      "slug": "the-return-of-the-creative-self",
+      "title": "The Return of the Creative Self",
+      "excerpt": "After years of balancing creativity with the constraints of academic life, the author reflects on a newfound sense of freedom to rediscover and nurture their creative self. The piece explores the tension between intellectual discipline and personal expression, ending with a commitment to give creativity the space to thrive again.",
+      "content": "In all of us live aspirations, dreams, and talents that we cannot afford to let die. Their death often signals the death of purpose itself.\n\nIn me lives a creative who was fortunate, or perhaps unfortunate, to possess a decent academic brain. For years, I watched that creative side struggle for space as I pursued a life in academia. There were moments when the two coexisted, moments when creativity found expression through research, teaching, and writing. Yet those moments were often confined by the expectations of the academy.\n\nAcademic life has its own rules. It shapes how we write, how we think, and sometimes even how we present ourselves to the world. We are trained to situate our ideas within the ideas of others, to justify every claim, to engage with what has been said and what remains unsaid. There is value in that discipline. It sharpens thought and deepens understanding.\n\nYet I often found myself wondering what becomes of us when some parts of our humanity find little room to breathe. What happens when intuition, emotion, imagination, and raw expression are continually filtered through systems of approval and review? Perhaps I was never a natural academic. Or perhaps I simply needed a different space in which to be fully myself.\n\nToday feels like a liberation day.\n\nI have the opportunity to let parts of myself live again outside the boundaries negotiated with Reviewer 2. I am grateful for technologies such as LLMs that have lowered the barriers to writing and expression. They have shifted attention away from performance and towards ideas. Fluency alone no longer carries the authority it once did.\n\nThe challenge now is learning how to be free. Years of academic training have left their mark. I am accustomed to self-censorship, caution, and the many forms of intellectual policing that institutions teach us, often without saying so explicitly.\n\nBut I want to rediscover the creative who existed before all of that.\n\nAnd I intend to give him room to live.",
+      "imageUrl": "/blog-images/1781158995073-l9lq66z4mk.jpeg",
+      "author": "Innocent Tinashe Mutero",
+      "date": "2026-06-11",
+      "tags": [],
+      "status": "published"
+    },
+    {
+      "id": "1781118117078",
+      "slug": "the-car-show",
+      "title": "The car show",
+      "excerpt": "a car listing",
+      "content": "asdfghjkkjhgfds",
+      "imageUrl": "/blog-images/1781118037059-y5wi6nbxx2f.jpg",
+      "author": "Innocent Tinashe Mutero",
+      "date": "2026-06-10",
+      "tags": [],
+      "status": "published"
+    }
+  ]
+}
