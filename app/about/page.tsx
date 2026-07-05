@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import { GraduationCap, Briefcase, Globe } from 'lucide-react'
 import { WAVEFORM_BARS } from '@/lib/episodes'
 
@@ -58,13 +59,14 @@ export default function AboutPage() {
 
             <div className="hidden md:block flex-shrink-0">
               <div className="relative overflow-hidden" style={{ width: 176, height: 216, background: '#f5f5f5', border: '1px solid #e0e0e0' }}>
-                <span className="absolute inset-0 flex items-center justify-center font-playfair font-bold select-none" style={{ fontSize: '6rem', color: '#e8e8e8' }} aria-hidden="true">ITM</span>
-                <div className="absolute bottom-0 left-0 right-0 flex items-end gap-[2px] px-3 pb-3" style={{ height: 60 }} aria-hidden="true">
-                  {WAVEFORM_BARS.slice(0, 22).map((h, i) => (
-                    <div key={i} className="flex-1 rounded-[1px]" style={{ height: `${h * 0.6}%`, background: `rgba(0,0,0,${0.08 + (i / 22) * 0.2})` }} />
-                  ))}
-                </div>
-                <p className="absolute top-4 left-4 font-inter text-[8px] tracking-[0.22em] uppercase" style={{ color: '#bbbbbb' }}>Portrait</p>
+                <Image
+                  src="/Pictures/Mutero.jpeg"
+                  alt="Innocent Tinashe Mutero"
+                  fill
+                  sizes="176px"
+                  style={{ objectFit: 'cover' }}
+                  priority
+                />
               </div>
             </div>
           </div>
@@ -81,51 +83,17 @@ export default function AboutPage() {
                 Interdisciplinary scholar at the intersection of African cultural economies,
                 civic university theory, and participatory research.
               </p>
-              <div className="space-y-5 font-inter text-[15px] leading-relaxed" style={{ color: '#333333' }}>
-                <p>
-                  Innocent Tinashe Mutero holds dual doctorates — a DMus in Ethnomusicology
-                  (University of Pretoria, 2025) and a PhD in Public Administration (Durban
-                  University of Technology, 2017). His work examines how community–university
-                  partnerships and entrepreneurial ecosystems generate socially embedded knowledge
-                  to drive inclusive wellbeing and local development.
-                </p>
-                <p>
-                  He publishes across ethnomusicology, urban studies, public health, and
-                  entrepreneurship, with an h-index of 7 and 198 citations (Google Scholar, June 2026).
-                  His grant portfolio exceeds ZAR 3 million in secured and co-developed funding
-                  from international and national funders including WHO, Unilever, FOJO-IMS, HIVOS,
-                  and the Canada Fund.
-                </p>
-                <p>
-                  He is currently Research & M&E Lead at the Johannesburg Business School Centre
-                  for Entrepreneurship, University of Johannesburg, where he is Principal Investigator
-                  on the FPM SETA-supported SkillUp Digital Project and co-ordinated the JBS Skills
-                  Forum (May 2026). He also supervises MFA students at AFDA and postgraduate students
-                  at DUT and UKZN.
-                </p>
-              </div>
+            <div className="space-y-5 font-inter text-[15px] leading-relaxed" style={{ color: '#333333' }}>
+              <p>
+                Innocent Tinashe Mutero holds two doctorates: a DMus in Ethnomusicology (University of Pretoria, 2025) and a PhD in Public Administration (Durban University of Technology, 2017). His work focuses on how community knowledge systems, higher education, and entrepreneurial ecosystems interact to produce forms of socially embedded knowledge that support inclusive development and wellbeing.
+              </p>
+              <p>
+                His research is interdisciplinary, spanning ethnomusicology, urban and development studies, public health, and entrepreneurship, with a consistent focus on applied, community-engaged scholarship and practice-led inquiry. He has contributed to and led research projects supported by national and international partners across development, health, and creative sectors, with an emphasis on collaborative knowledge production and implementation in complex social settings.
+              </p>
+              <p>
+                He is Research and Monitoring &amp; Evaluation Lead at the Johannesburg Business School Centre for Entrepreneurship, University of Johannesburg, where he works on skills development and innovation programming, including leadership of the FPM SETA-supported SkillUp Digital Project and coordination of institutional skills engagement platforms. He also supervises postgraduate research across multiple South African higher education institutions, including AFDA, Durban University of Technology, and the University of KwaZulu-Natal.
+              </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ── Scholarly Impact ── */}
-      <section className="py-12 sm:py-14" style={{ background: '#ffffff', borderTop: '1px solid #e0e0e0' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-8">
-          <div className="grid md:grid-cols-[180px_1fr] gap-8 md:gap-16">
-            <span className="section-label md:sticky md:top-28 pt-1">Scholarly Impact</span>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-px" style={{ background: '#e0e0e0' }}>
-              {[
-                { n: '18+', label: 'Peer-Reviewed Publications' },
-                { n: '198', label: 'Total Citations' },
-                { n: '7', label: 'h-index (Google Scholar)' },
-                { n: '7', label: 'i10-index' },
-              ].map(({ n, label }) => (
-                <div key={label} className="px-5 sm:px-7 py-7 sm:py-8 flex flex-col" style={{ background: '#ffffff' }}>
-                  <p className="font-inter font-black leading-none" style={{ fontSize: 'clamp(1.8rem, 4vw, 2.5rem)', letterSpacing: '-0.04em', marginBottom: '0.5rem', color: '#111111' }}>{n}</p>
-                  <p className="font-inter text-[10px] uppercase tracking-[0.22em]" style={{ color: '#888888', lineHeight: 1.5 }}>{label}</p>
-                </div>
-              ))}
             </div>
           </div>
         </div>

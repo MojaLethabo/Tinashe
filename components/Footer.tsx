@@ -7,11 +7,12 @@ const navLinks = [
 
 const connectLinks = [
   { href: 'mailto:muteroinnocent@gmail.com', label: 'Email' },
-  { href: '#', label: 'Google Scholar' },
-  { href: '#', label: 'ResearchGate' },
-  { href: '#', label: 'LinkedIn' },
-  { href: '#', label: 'Spotify' },
-  { href: '#', label: 'Apple Podcasts' },
+  { href: 'https://scholar.google.com/citations?user=KsQNbQYAAAAJ&hl=en', label: 'Google Scholar' },
+  { href: 'https://www.researchgate.net/profile/Innocent-Mutero?ev=hdr_xprf', label: 'ResearchGate' },
+  { href: 'https://www.linkedin.com/in/innocent-tinashe-m-61b14169/', label: 'LinkedIn' },
+  { href: 'https://open.spotify.com/episode/1U9pmGabmjRnrWl4RsjR8J?si=xtUpWxLgT4GZHlNffYqZZg', label: 'Spotify' },
+  { href: 'https://www.youtube.com/channel/UC5F52oOfLbLt_Xh0Qx6Xg7A', label: 'YouTube' },
+ 
 ]
 
 export default function Footer() {

@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   title: 'ZARD | Research Podcast by Innocent Tinashe Mutero',
   description:
     'ZARD — a research podcast by Innocent Tinashe Mutero exploring arts for social change, conflict transformation, and community engagement.',
+  icons: {
+    icon: '/Pictures/Logo.png',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

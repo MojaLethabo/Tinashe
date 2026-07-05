@@ -97,8 +97,6 @@ export default async function HomePage() {
               {[
                 { n: String(episodes.length), label: 'Episodes' },
                 { n: String(liveSessions.length), label: 'Live Sessions' },
-                { n: '18+', label: 'Publications' },
-                { n: '198', label: 'Citations' },
               ].map(({ n, label }, i) => (
                 <div key={label} className="flex-shrink-0 py-5" style={{ paddingLeft: i === 0 ? 0 : 20, paddingRight: 20 }}>
                   <p className="font-inter font-black leading-none" style={{ fontSize: '1.2rem', letterSpacing: '-0.03em', marginBottom: '0.3rem', color: '#111111' }}>{n}</p>
